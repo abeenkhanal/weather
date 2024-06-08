@@ -44,6 +44,10 @@ body{
 .search button img {
     width: 16px;
 }
+.weather{
+    color: white;
+    
+}
 .weather-icon{
     width: 170px;
     margin-top: 30px;
@@ -57,6 +61,7 @@ body{
 .weather h2{
     font-size: 45px;
     font-weight: 400;
+    margin-top: -10px;
 }
 .details{
     display: flex;
@@ -64,4 +69,14 @@ body{
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+
 }
